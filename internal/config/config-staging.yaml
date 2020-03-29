@@ -1,0 +1,28 @@
+server:
+  protocol: http
+  listen_address: ":8080"
+
+db:
+  host: localhost
+  port: 5432
+  dbname: workbench_dev
+  user: ut-thirdparty
+  password: ut-thirdparty
+
+integrations:
+  http_dial_timeout_seconds: 5
+  http_request_timeout_seconds: 10
+  externals:
+    http:
+      idm:
+        scheme: https
+        host: mvp.uangteman.com
+        endpoints:
+          login: "/idm/login"
+          get_signature_key: "/idm/get-signature-key"
+          authorize: "/idm/authorize"
+      notification:
+        scheme: https
+        host: mvp.uangteman.com
+        endpoints:
+          notification_send_notif: "/notif/send"
