@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/spartaut/utils/crypto"
+	"git.uangteman.com/workbench/utils/crypto"
 	"strconv"
 	"sync"
 	"time"

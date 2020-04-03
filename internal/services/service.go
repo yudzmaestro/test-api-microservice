@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/yudzmaestro/test-api-microservice/internal/config"
 	iservice "github.com/yudzmaestro/test-api-microservice/internal/integration/services"
-	"github.com/spartaut/utils/datastore"
-	"github.com/spartaut/utils/http/client"
+	"git.uangteman.com/workbench/utils/datastore"
+	"git.uangteman.com/workbench/utils/http/client"
 	"time"
 )
 

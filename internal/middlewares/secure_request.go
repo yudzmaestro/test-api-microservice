@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 	"fmt"
-	"github.com/spartaut/utils/middlewares"
-	"github.com/spartaut/utils/crypto"
+	"git.uangteman.com/workbench/utils/middlewares"
+	"git.uangteman.com/workbench/utils/crypto"
 	"github.com/yudzmaestro/test-api-microservice/pkg/types"
 )
 

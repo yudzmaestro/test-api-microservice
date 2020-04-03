@@ -22,9 +22,9 @@ import (
 	"github.com/yudzmaestro/test-api-microservice/internal/models"
 	"github.com/yudzmaestro/test-api-microservice/pkg/errs"
 
-	"github.com/spartaut/utils/http/helper"
-	"github.com/spartaut/utils/http/router"
-	"github.com/spartaut/utils/middlewares"
+	"git.uangteman.com/workbench/utils/http/helper"
+	"git.uangteman.com/workbench/utils/http/router"
+	"git.uangteman.com/workbench/utils/middlewares"
 
 	//imiddlewares "github.com/spartaut/ut_promo/internal/middlewares"
 

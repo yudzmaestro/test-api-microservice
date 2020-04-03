@@ -2,7 +2,7 @@ package services
 
 import (
 	"github.com/yudzmaestro/test-api-microservice/internal/config"
-	"github.com/spartaut/utils/http/client"
+	"git.uangteman.com/workbench/utils/http/client"
 )
 
 type IDMHttpService struct {

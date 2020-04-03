@@ -3,14 +3,14 @@ package services
 import (
 	"context"
 
-	"github.com/spartaut/utils/http/client"
+	"git.uangteman.com/workbench/utils/http/client"
 	"github.com/yudzmaestro/test-api-microservice/internal/config"
 	"github.com/yudzmaestro/test-api-microservice/internal/integration/dto"
 	"net/url"
-	"github.com/spartaut/utils/http/helper"
+	"git.uangteman.com/workbench/utils/http/helper"
 	"encoding/json"
 	"fmt"
-	"github.com/spartaut/utils/commons"
+	"git.uangteman.com/workbench/utils/commons"
 	"errors"
 )
 
